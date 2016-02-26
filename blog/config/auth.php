@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => Orchid\Dashboard\Models\User::class,
         ],
 
         // 'users' => [
